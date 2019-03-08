@@ -84,7 +84,7 @@
         <constructor-arg name="account" value="admin"/>
         <constructor-arg name="password" value="111"/>
     </bean>
-    <bean id="userlogin" class="com.spring.Aop.IoC.UserLogin">
+    <bean id="userLogin" class="com.spring.Aop.IoC.UserLogin">
         <constructor-arg name="user" ref="user"/>
     </bean>
 </beans>

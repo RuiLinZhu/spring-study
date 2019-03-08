@@ -6,13 +6,13 @@
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
-    <output url="file://$MODULE_DIR$/IoC/target/classes" />
-    <output-test url="file://$MODULE_DIR$/IoC/target/test-classes" />
-    <content url="file://$MODULE_DIR$/IoC">
-      <sourceFolder url="file://$MODULE_DIR$/IoC/src/main/java" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/IoC/src/main/resources" type="java-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/IoC/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/IoC/target" />
+    <output url="file://$MODULE_DIR$/AoP/target/classes" />
+    <output-test url="file://$MODULE_DIR$/AoP/target/test-classes" />
+    <content url="file://$MODULE_DIR$/AoP">
+      <sourceFolder url="file://$MODULE_DIR$/AoP/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AoP/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/AoP/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/AoP/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -3824,3 +3824,102 @@ Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Err
 2019-03-08 11:09:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
 2019-03-08 11:09:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
 2019-03-08 11:09:12 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 13:54:57 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:54:57 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [spring.xml]
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 13:54:58 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:54:58  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 13:55:24 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:55:24 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-08 13:55:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:55:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:55:25 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:55:25  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 13:56:21 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:56:21 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-08 13:56:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:56:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:56:21 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:56:22  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 13:58:28 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:58:28 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-08 13:58:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:58:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:58:28 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:58:29  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 13:59:23 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:59:23 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [Spring.xml]
+2019-03-08 13:59:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:59:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:59:23 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:59:23  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 13:59:42 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 13:59:42 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [spring.xml]
+2019-03-08 13:59:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 13:59:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 13:59:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 13:59:42  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 14:00:09 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:00:10 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:00:10 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 14:00:10  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 14:00:35 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:00:35 DEBUG XmlBeanDefinitionReader:395 - Loaded 5 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:00:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:00:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:00:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:00:35 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:01:44 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:01:45 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:01:45 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDao'
+2019-03-08 14:01:45  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDao' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 14:02:01 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:02:01 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:02:01 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDa'
+2019-03-08 14:02:01  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDa' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 14:02:26 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:02:26 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:02:26 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-08 14:02:26  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 14:03:41 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 14:03:42 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 14:03:42 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-08 14:03:42  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError
+2019-03-08 18:00:09 DEBUG ClassPathXmlApplicationContext:594 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1963006a
+2019-03-08 18:00:09 DEBUG XmlBeanDefinitionReader:395 - Loaded 9 bean definitions from class path resource [Spring.xml]
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'hello'
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#0'
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'org.springframework.aop.aspectj.AspectJPointcutAdvisor#1'
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'myBeforeAdvice'
+2019-03-08 18:00:09 DEBUG DefaultListableBeanFactory:213 - Creating shared instance of singleton bean 'userDAO'
+2019-03-08 18:00:09  WARN ClassPathXmlApplicationContext:557 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'userDAO' defined in class path resource [Spring.xml]: Instantiation of bean failed; nested exception is java.lang.ExceptionInInitializerError

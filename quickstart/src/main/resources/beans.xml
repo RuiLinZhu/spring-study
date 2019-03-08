@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+     <bean id="phone" class="com.spring.quickstart.Phone">
+          <property name="size" value="8.0"/>
+          <property name="price" value="10000"/>
+     </bean>
+
+     <bean id="student" class="com.spring.quickstart.Student">
+          <!--常用属性 name value ref-->
+          <!--setter注入传值-->
+          <!--<property name="name" value="tom"/>-->
+          <!--<property name="age"  value="15"/>-->
+          <!--构造器注入传值-->
+          <!--<constructor-arg name="age" value="21"/>-->
+          <!--<constructor-arg name="name" value="tom"/>-->
+          <property name="name" value="AC"/>
+          <property name="age" value="19"/>
+          <property name="phone" ref="phone"/>
+     </bean>
+</beans>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IoC.iml" filepath="$PROJECT_DIR$/IoC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IoC/src/main/main.iml" filepath="$PROJECT_DIR$/IoC/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/src/main/main1.iml" filepath="$PROJECT_DIR$/quickstart/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart.iml" filepath="$PROJECT_DIR$/quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IoC/src/test/test.iml" filepath="$PROJECT_DIR$/IoC/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quickstart/src/test/test1.iml" filepath="$PROJECT_DIR$/quickstart/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>

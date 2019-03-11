@@ -3,24 +3,31 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--配置一个Hello的bean,等同于Hello hello=new HelloImpl();-->
-    <bean id="hello" class="com.spring.Aop.HelloImpl"/>
-    <!--配置一个MyBeforeAdvice前置增强的bean-->
-    <bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>
-    <!--配置aop-->
-    <aop:config>
-        <aop:aspect id="before" ref="myBeforeAdvice">
-            <aop:pointcut id="myPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>
-            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
-        </aop:aspect>
-    </aop:config>
+    <!--<bean id="hello" class="com.spring.Aop.HelloImpl"/>-->
+    <!--&lt;!&ndash;配置一个MyBeforeAdvice前置增强的bean&ndash;&gt;-->
+    <!--<bean id="myBeforeAdvice" class="com.spring.Aop.MyBeforeAdvice"/>-->
+    <!--&lt;!&ndash;配置aop&ndash;&gt;-->
+    <!--<aop:config>-->
+        <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
+            <!--<aop:pointcut id="myPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>-->
+            <!--<aop:before method="beforeMethod" pointcut-ref="myPointCut"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
 
-    <bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>
-    <bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>
-    <aop:config>
-        <aop:aspect id="beforeA" ref="beforeAdvice">
-            <aop:pointcut id="umyPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>
-            <aop:before method="beforeMethods" pointcut-ref="umyPointCut"/>
-        </aop:aspect>
-    </aop:config>
+    <!--<bean id="userDAO" class="com.spring.Aop.UserDAOImpl"/>-->
+    <!--<bean id="beforeAdvice" class="com.spring.Aop.BeforeAdvice"/>-->
+    <!--<aop:config>-->
+        <!--<aop:aspect id="beforeA" ref="beforeAdvice">-->
+            <!--<aop:pointcut id="umyPointCut" expression="execution(* com.spring.Aop.*.*(..))"/>-->
+            <!--<aop:before method="beforeMethods" pointcut-ref="umyPointCut"/>-->
+        <!--</aop:aspect>-->
+    <!--</aop:config>-->
 
+   <aop:aspectj-autoproxy/>
+    <bean id="fighter" class="com.spring.Aop.Fighter"/>
+    <bean id="tiger" class="com.spring.Aop.Tiger"/>
+
+    <aop:aspectj-autoproxy/>
+    <bean id="imageCopy" class="com.spring.Aop.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.Aop.ImageHandler"/>
 </beans>

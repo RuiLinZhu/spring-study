@@ -19,5 +19,5 @@ public class User {
     private Long id;
     private String account;
     private String password;
-    private Integer credit;
+    private Integer credits;
 }

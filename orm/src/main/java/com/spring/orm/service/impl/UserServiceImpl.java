@@ -9,39 +9,34 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-/**
- * Created by User on 2019/3/11.
- */
-//标注奔雷是一个Service组件
 @Service
-//在service层启动事务
 @Transactional
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
     @Autowired
     private UserDAO userDAO;
 
     @Override
-    public int insertUser(User user){
+    public int insertUser(User user) {
         return userDAO.insert(user);
     }
 
     @Override
-    public int deleteUser(long id){
+    public int deleteUser(long id) {
         return userDAO.deleteByPrimaryKey(id);
     }
 
     @Override
-    public int updateUser(User user){
+    public int updateUser(User user) {
         return userDAO.updateByPrimaryKey(user);
     }
 
     @Override
-    public List<User> selectUsers(){
+    public List<User> selectUsers() {
         return userDAO.selectAll();
     }
 
     @Override
-    public User getUser(long id){
+    public User getUser(long id) {
         return userDAO.selectByPrimaryKey(id);
     }
 }

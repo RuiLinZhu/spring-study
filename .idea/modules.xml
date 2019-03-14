@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/orm.iml" filepath="$PROJECT_DIR$/orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart.iml" filepath="$PROJECT_DIR$/quickstart.iml" />
       <module fileurl="file://$PROJECT_DIR$/quickstart/src/test/test1.iml" filepath="$PROJECT_DIR$/quickstart/src/test/test1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/web/web.iml" filepath="$PROJECT_DIR$/web/web.iml" />
     </modules>
   </component>
 </project>

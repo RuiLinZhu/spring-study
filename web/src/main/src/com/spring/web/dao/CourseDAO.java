@@ -21,6 +21,8 @@ public interface CourseDAO extends BaseDAO<Course> {
             @Result(column = "username", property = "username"),
             @Result(column = "avatar", property = "avatar")
     })
-    @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 ")
+    @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4")
     List<CourseVO> selectCurrentCourses();
+
 }
+
